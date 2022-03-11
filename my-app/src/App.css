@@ -2,5 +2,24 @@ nav {
     height: 70px;
     display: flex;
     padding: 20px 36px;
-    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.1);
+}
+
+.hero-pic{
+    position: absolute;
+    max-width: 80%;
+    max-height: 70%;
+    left: 10%;
+    top: 25%;
+}
+
+.hero-heading{
+    position: absolute;
+    top: 150%;
+    left: 10%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 110%;
 }
