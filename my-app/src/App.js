@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
-import logo from './airbnb-logo.png';
+import Navbar from "./components/Navbar";
+
 
 // function App() {
 //   return (
@@ -28,7 +29,9 @@ import logo from './airbnb-logo.png';
 
 function App() {
     return (
-        <img src={logo}/>
+        <div>
+            <Navbar />
+        </div>
     );
 }
 
