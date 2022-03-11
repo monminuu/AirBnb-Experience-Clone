@@ -17,9 +17,22 @@ nav {
     position: absolute;
     top: 150%;
     left: 10%;
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 36px;
+    font-size: 60px;
     line-height: 110%;
+    color: #000000;
+}
+
+.hero-para{
+    position: absolute;
+    top: 165%;
+    left: 10%;
+    width: 370px;
+    height: 56px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 110%;
+    color: #222222;
 }

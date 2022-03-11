@@ -7,9 +7,10 @@ export default function Hero() {
             <div className="hero-pic">
                 <img src={picture} />
             </div>
-            <div className="hero-heading">
-                <h1>Online Experiences</h1>
-                <p></p>
+            <div>
+                <h1 className="hero-heading">Online Experiences</h1>
+                <p className="hero-para">Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.
+                </p>
             </div>
         </div>
     );
