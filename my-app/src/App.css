@@ -5,20 +5,17 @@ nav {
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.1);
 }
 
-.hero--photo-container{
+.hero--pic{
     position: absolute;
-    max-width: 40%;
-    left: 10%;
+    max-width: 70%;
+    right: 0;
     top: 25%;
 }
 
-.hero-pic{
-
-}
 
 .hero-heading{
     position: absolute;
-    top: 140%;
+    top: 90%;
     left: 10%;
     font-style: normal;
     font-weight: 600;
@@ -29,7 +26,7 @@ nav {
 
 .hero-para{
     position: absolute;
-    top: 155%;
+    top: 107%;
     left: 10%;
     width: 370px;
     height: 56px;
@@ -38,4 +35,21 @@ nav {
     font-size: 20px;
     line-height: 110%;
     color: #222222;
+}
+
+.card--pic{
+    position: absolute;
+    top: 140%;
+    left: 10%;
+    border-radius: 25px;
+}
+
+.card--star{
+    position: absolute;
+    top: 199%;
+    left: 10%;
+}
+
+.card--para{
+    top: 199%;
 }
