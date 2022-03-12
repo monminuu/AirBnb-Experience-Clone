@@ -4,10 +4,16 @@ import star from "./star.png";
 
 export default function Card () {
     return (
-        <card>
+        <div className="card">
             <img src={picture} className="card--pic"/>
-            <img src={star} className="card--star"/>
-            <p className="card--para">Life lessons with</p>
-        </card>
+            <div className="card--stats">
+                <img src={star} className="card--star"/>
+                <span> 5.0 </span>
+                <span className="grey"> (6) . </span>
+                <span className="grey">USA</span>
+            </div>
+            <p>Life Lessons with Katie Zaferes</p>
+            <p><strong>From $136</strong> / person</p>
+        </div>
     );
 }

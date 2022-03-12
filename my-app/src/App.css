@@ -37,19 +37,39 @@ nav {
     color: #222222;
 }
 
-.card--pic{
+/*.card--star{*/
+/*    position: absolute;*/
+/*    top: 185%;*/
+/*    left: 10%;*/
+/*}*/
+
+/*span{*/
+/*    position: absolute;*/
+/*    top: 183%;*/
+/*    left: 12%;*/
+/*}*/
+
+.card{
     position: absolute;
-    top: 140%;
+    top: 135%;
     left: 10%;
+    font-size: 12px;
+}
+
+.card--pic{
     border-radius: 25px;
+    width: 100%;
 }
 
 .card--star{
-    position: absolute;
-    top: 199%;
-    left: 10%;
+    width: 14px;
+    height: 14px;
 }
 
-.card--para{
-    top: 199%;
+.card--stats{
+    display: flex;
+    align-items: center;
+}
+.grey{
+    color: #918E9B;
 }
