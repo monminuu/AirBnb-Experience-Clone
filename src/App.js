@@ -6,6 +6,7 @@ import Card from "./components/Card";
 import data from "./data.js";
 
 
+
 // function App() {
 //   return (
 //     <div className="App">
@@ -32,7 +33,7 @@ import data from "./data.js";
 
 function App() {
     const detailElements = data.map(elem => <elem
-        picture={elem.picture}
+        img={elem.img}
         rating={elem.rating}
         location={elem.location}
     />)
@@ -42,7 +43,7 @@ function App() {
             <Navbar />
             <Hero />
             <Card
-                picture="katie-zaferes.png"
+                img="katie-zaferes.png"
                 rating="5.0"
                 reviewCount={6}
                 location="USA"
