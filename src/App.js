@@ -7,24 +7,24 @@ import data from "./data.js";
 
 
 function App() {
-    const detailElements = data.map(elem => <elem
-        img={elem.img}
-        rating={elem.rating}
-        location={elem.location}
-    />)
+    const card = data.map(item => {
+        return (
+            <Card
+                img={item.coverImg}
+                rating={item.stats.rating}
+                reviewCount={item.stats.reviewCount}
+                location={item.location}
+                title={item.title}
+                price={item.price}
+            />
+        )
+    })
 
     return (
         <div>
             <Navbar />
             <Hero />
-            <Card
-                img="katie-zaferes.png"
-                rating="5.0"
-                reviewCount={6}
-                location="USA"
-                title="Life Lessons with Katie Zaferes"
-                price={136}
-            />
+            {card}
         </div>
     );
 }
