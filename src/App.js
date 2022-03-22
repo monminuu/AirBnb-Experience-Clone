@@ -7,7 +7,8 @@ import data from "./data.js";
 
 
 function App() {
-    const card = data.map(item => {
+    let i = 51;
+    const cards = data.map(item => {
         return (
             <Card
                 img={item.coverImg}
@@ -16,16 +17,17 @@ function App() {
                 location={item.location}
                 title={item.title}
                 price={item.price}
+                id={i++}
             />
         )
-    })
+    });
 
     return (
         <div>
             <Navbar />
             <Hero />
-            <section className="card--list">
-                {card}
+            <section className="cards--list">
+                {cards}
             </section>
         </div>
     );
