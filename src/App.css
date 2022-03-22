@@ -15,7 +15,7 @@ nav {
 }
 
 .bold {
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .gray {
@@ -36,8 +36,8 @@ section {
 }
 
 .hero--photo {
-    max-width: 70%;
-    align-self: end;
+    max-width: 80%;
+    align-self: center;
 }
 
 .hero--header {
